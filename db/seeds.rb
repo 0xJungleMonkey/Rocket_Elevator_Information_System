@@ -9,3 +9,4 @@
 #     CSV.foreach("app/models/Employee List - Employee List.csv", :quote_char => "|",headers: true,encoding:"ISO-8859-1:utf-8") do |row|
 #         Employee.create!(row.to_hash)
 #     end
+# AdminUser.create!(email: 'xinqidavis@gmail.com', password: '123456', password_confirmation: '123456') if Rails.env.development?
